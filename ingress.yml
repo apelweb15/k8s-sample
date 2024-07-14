@@ -179,7 +179,7 @@ metadata:
   name: ingress-nginx-controller
   namespace: ingress-nginx
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-load-balancer-attributes: '{"dns_name":"my-load-balancer-1234567890.us-west-2.elb.amazonaws.com"}'
+    service.beta.kubernetes.io/aws-load-balancer-load-balancer-attributes: '{"dns_name":"ingress-2024807648.ap-southeast-3.elb.amazonaws.com"}'
     service.beta.kubernetes.io/aws-load-balancer-internal: "false"
     service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "http"
     service.beta.kubernetes.io/aws-load-balancer-ssl-ports: ""
