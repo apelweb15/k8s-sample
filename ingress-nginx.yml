@@ -25,7 +25,7 @@ metadata:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/load-balancer-arn: arn:aws:elasticloadbalancing:ap-southeast-3:891377180131:loadbalancer/app/ingress/8f70507e6eb68f62
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/target-type: instance
     alb.ingress.kubernetes.io/load-balancer-name: ingress
 spec:
   rules:
